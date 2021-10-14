@@ -1,4 +1,4 @@
-package at.htl.carrental;
+package at.htl.carrental.boundary;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -11,6 +11,6 @@ public class GreetingResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        return "Hello RESTEasy";
+        return "Hello 4AHIF";
     }
 }
